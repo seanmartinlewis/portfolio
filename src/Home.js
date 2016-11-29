@@ -1,16 +1,15 @@
 import React, {Component} from 'react';
-import logo from './sean.jpg';
+import './App.css';
+import {Link} from 'react-router';
 
 class Home extends Component {
   render(){
     return(
       <div className="home">
-        <div className="selfie">
-          <img src={logo} className="App-logo" alt="logo" />
-        </div>
-        <div className="aboutme">
-          <p>Creative mind currently focused on full stack development.  With a well rounded background in education, graphic design and creative writing, I bring new perspectives and solutions to problems.  </p>
-        </div>
+      <Link className="block1" activeClassName="active" to="/About">About</Link>
+      <Link className="block2" activeClassName="active" to="/Projects">Projects</Link>
+      <Link className="block3" activeClassName="active" to="/resume">Resume</Link>
+      <Link className="block4" activeClassName="active" to="/contact">Contact</Link>
       </div>
     )
   }

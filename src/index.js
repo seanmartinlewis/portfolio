@@ -2,6 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import App from './App';
 import Home from './Home';
+import About from './About';
 import Resume from './Resume';
 import Contact from './Contact';
 import Projects from './Projects';
@@ -15,6 +16,7 @@ ReactDOM.render(
       <Route path="resume" component={Resume}/>
       <Route path="contact" component={Contact}/>
       <Route path="projects" component={Projects}/>
+      <Route path="About" component={About}/>
     </Route>
   </Router>,
   document.getElementById('root')

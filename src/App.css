@@ -1,24 +1,164 @@
 
 .home {
   margin: 0 auto;
-  margin-bottom: 5%;
-  max-width: 500px;
+  max-width: 1000px;
   display: flex;
+  padding: 20px;
+  justify-content: center;
+  flex-wrap: wrap;
+  font-family: 'Bungee';
+  font-size: 10px;
+}
+
+.about {
+  margin: 0 auto;
+  min-height: 280px;
+  padding: 20px;
+  flex-wrap: wrap;
+  font-family: 'Bungee';
+  background-color: rgba(248, 241, 161, 0.8);
+  letter-spacing: normal;
+  max-width: 600px;
+  max-height: 500px;
+  overflow: scroll;
+  border: 1px solid #222;
+  border-radius: 4px;
 }
 
 .selfie{
-  display: inline-block;
-  justify-content: flex-start;
+  float: left;
+  padding: 20px;
 }
 
 .aboutme{
-  margin-top: 10%;
-  margin-left: 5%;
-  display: inline-block;
+  color: #222;
+  font-size: 15px;
+  padding: 20px;
+  font-family: 'Muli';
+}
+
+.contact{
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  color: #222;
+  font-size: 15px;
+  padding: 10px;
+  font-family: 'Muli';
+  text-align: left;
+  background-color: rgba(248, 241, 161, 0.95);
+  max-width: 600px;
+  max-height: 400px;
+  overflow: scroll;
+  border: 1px solid #222;
+
+}
+
+.resume {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.resumepic{
+  height: 500px;
+  width: auto;
+  border: 1px solid #222;
+}
+
+
+
+a.block1 {
+  padding-top: 8%;
+}
+
+a.block2 {
+  padding-top: 8%;
+}
+
+a.block3 {
+  padding-top: 8%;
+}
+
+a.block4 {
+  padding-top: 8%;
+}
+
+.block1 {
+  text-decoration: none;
+  text-align: center;
+  margin: 20px;
+  padding: 20px;
+  align-items: center;
+  height: 200px;
+  min-width: 200px;
+  border-radius: 8px;
+  background-color: rgba(248, 241, 161, 0.95);
   color: teal;
-  justify-content: flex-start;
-  font-size: 20px;
-  font-family: 'Poiret One';
+  font-size: 25px;
+  border: 1px solid #222;
+}
+
+.block2 {
+  text-decoration: none;
+  text-align: center;
+  margin: 20px;
+  padding: 20px;
+  align-items: center;
+  height: 200px;
+  min-width: 200px;
+  border-radius: 8px;
+  background-color: rgba(85, 69, 47, 0.95);
+  color: teal;
+  font-size: 25px;
+  border: 1px solid #222;
+}
+
+.block3 {
+  text-decoration: none;
+  text-align: center;
+  margin: 20px;
+  padding: 20px;
+  align-items: center;
+  height: 200px;
+  min-width: 200px;
+  border-radius: 8px;
+  background-color: rgba(226, 201, 55, 0.95);
+  color: teal;
+  font-size: 25px;
+  border: 1px solid #222;
+}
+
+.block4 {
+  text-decoration: none;
+  text-align: center;
+  margin: 20px;
+  padding: 20px;
+  align-items: center;
+  height: 200px;
+  min-width: 200px;
+  border-radius: 8px;
+  background-color: rgba(178, 173, 119, 0.95);
+  color: teal;
+  font-size: 25px;
+  border: 1px solid #222;
+}
+
+.block1:hover {
+  text-decoration: none;
+  color: white !important;
+}
+.block2:hover {
+  text-decoration: none;
+  color: white !important;
+}
+.block3:hover {
+  text-decoration: none;
+  color: white !important;
+}
+.block4:hover {
+  text-decoration: none;
+  color: white !important;
 }
 
 .header {
@@ -27,31 +167,33 @@
   margin: 5px;
 }
 
-a.focus {
+/*a.focus {
   text-decoration: none;
   color: aqua !important;
-}
+}*/
 .nav {
-  color: white;
+  color: tan;
   text-decoration: none !important;
-  background-color: #222;
+  background-color: rgba(34, 34, 34, .9);
   padding: 10px;
   justify-content: flex-end;
   border-radius: 7px;
   margin: 2px;
+  font-family: "Muli"
 }
 
 .projects {
   text-align: center;
+  box-sizing: border-box;
 }
 
 .active {
-  text-decoration: none;
+  text-decoration: none !important;
   color: white !important;
 }
 
 .active:hover {
-  text-decoration: none;
+  text-decoration: none !important;
   color: aqua !important;
 }
 
@@ -65,63 +207,42 @@ a.focus {
 
 
 .tictactoe {
-  max-height: 400px;
-  max-width: 400px;
-  height: auto;
+  max-height: 500px;
   width: 100%;
+  max-width: 380px;
+  height: auto;
   margin-bottom: 20px;
   margin-top: 20px;
-  padding: 20px
+  padding: 10px;
+  background-color: #222;
+  margin: 20px;
+  border-radius: 8px;
 }
 
 .App-logo {
   height: 200px;
-  margin-top: 20px;
   border-radius: 10px;
   border: 2px solid #222;
 
 }
 
-.headerPic{
-  position: absolute;
-  width: 100%;
-  height: auto;
-}
-
-.App-header {
-  height: 300px;
-  padding: 20px;
-  color: white;
-  /*background-image: url(../public/train.jpg);*/
-  text-align: center;
-  position: relative;
-  min-height: auto;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  background-size: cover;
-  -o-background-size: cover;
-  background-position: center;
-}
-
-/*.layer {
-    background-color: rgba(0, 0, 0, 0.3);
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-}*/
-
-.App-intro {
-  font-size: large;
-  text-align: center;
-  color: white;
+h1{
+  display: flex;
+  justify-content: flex-start;
+  font-size: 44px;
+  font-family: 'Bungee Inline';
+  color: #222;
+  margin-left: 10px;
+  margin-top: 30px;
 }
 
 h2{
-  font-size: 50px;
-  font-family: 'roboto';
+  display: flex;
+  justify-content: flex-start;
+  font-size: 22px;
+  font-family: 'Bungee';
   color: #222;
+  margin-left: 10px;
 }
 
 
@@ -131,9 +252,15 @@ ul {
 }
 
 .content {
+  margin-top: 3%;
   position: relative;
-  background-color: #222;
-  margin-bottom: 5%;
+  font-family: "Muli";
+}
+
+@media screen and (max-width:yourdevice-px) {
+    @-ms-viewport{
+        width:required-px;
+    }
 }
 
 @keyframes App-logo-spin {

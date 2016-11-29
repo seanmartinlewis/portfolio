@@ -1,11 +1,16 @@
 import React, {Component} from 'react';
+import {Link, IndexLink} from 'react-router';
 
 class Contact extends Component {
   render(){
     return(
-      <div>
-        <h3>Sean Martin Lewis</h3>
-        <p>413 Mesa Circle</p>
+      <div className="contact">
+      <p>
+        512-797-8110<br />
+        Austin, Texas<br />
+        seanmartinlewis@gmail.com<br />
+      </p>
+      
       </div>
     )
   }

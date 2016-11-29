@@ -12,19 +12,16 @@ class App extends Component {
         <div className="App-header">
           <div className="layer">
             <div className="header">
-              <p className="seanHeader">Portfolio</p>
-              {' '}
               <IndexLink to="/" className="nav" activeClassName="active">Home</IndexLink>
               {' '}
               <Link className="nav" to="/contact" activeClassName="active">Contact</Link>
               {' '}
               <Link className="nav" to="/resume" activeClassName="active">Resume</Link>
               <Link className="nav" to="/Projects" activeClassName="active">Projects</Link>
+              <Link className="nav" to="/About" activeClassName="active">About</Link>
             </div>
-                  <h2>SEAN MARTIN LEWIS</h2>
-                  <h3 className="App-intro">
-                  Full Stack Developer
-                  </h3>
+                  <h1>SEAN MARTIN LEWIS</h1>
+                  <h2>Creative Web Development</h2>
           </div>
         </div>
           <div className='content'>
