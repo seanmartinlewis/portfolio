@@ -1,14 +1,13 @@
 import React, { Component } from 'react';
 import './App.css';
-// import headPic from '../public/train.jpg';
 import {Link, IndexLink} from 'react-router';
+
 
 
 class App extends Component {
   render() {
     return (
       <div className="App">
-      {/* <img src={headPic} className="headerPic" /> */}
         <div className="App-header">
           <div className="layer">
             <div className="header">

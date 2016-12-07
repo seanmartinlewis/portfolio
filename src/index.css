@@ -15,17 +15,42 @@ body {
 
 #footer {
   align-items: center;
-  padding-top: 10px;
   padding-right: 15px;
   color: tan;
   font-size: 14px;
   background-color: rgba(34, 34, 34, .9);
   height: 100%;
-  max-height:80px;
+  max-height:60px;
   position: fixed;
   left: 0;
   right: 0;
   bottom: 0;
   overflow: auto;
   font-family: "Muli"
+}
+
+ul {
+  list-style: none;
+  text-align: right;
+}
+
+.list {
+  display: inline-block;
+  text-align: right;
+  float: right;
+}
+
+.icon{
+  display: inline-block;
+  /*text-align: left;*/
+  height: 40px;
+  width: auto;
+  margin-left: 20px;
+  margin-top: 5px;
+  font-size: 35px;
+  justify-content: center;
+}
+
+i{
+  margin-left: 20px;
 }

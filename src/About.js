@@ -1,10 +1,24 @@
 import React, {Component} from 'react';
-import logo from './sean.jpg';
+import logo from './selfiesean.png';
+import angular from '../public/angularjs.png'
+import jquery from '../public/jQurery.gif'
+import node from '../public/node.png'
+import rails from '../public/rails.png'
+import react from '../public/react.png'
+import responsive from '../public/responsive.png'
 
 class About extends Component {
   render(){
     return(
       <div className="about">
+      <div className="skills">
+        <img src={angular} className="icons"/>
+        <img src={jquery} className="icons"/>
+        <img src={node} className="icons"/>
+        <img src={rails} className="icons"/>
+        <img src={react} className="icons"/>
+        <img src={responsive} className="icons"/>
+      </div>
         <div className="selfie">
           <img src={logo} className="App-logo" alt="logo" />
         </div>

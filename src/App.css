@@ -19,10 +19,14 @@
   background-color: rgba(248, 241, 161, 0.8);
   letter-spacing: normal;
   max-width: 600px;
-  max-height: 500px;
+  max-height: 400px;
   overflow: scroll;
   border: 1px solid #222;
   border-radius: 4px;
+}
+
+.skills{
+  text-align: center;
 }
 
 .selfie{
@@ -39,19 +43,31 @@
 
 .contact{
   margin: 0 auto;
-  display: flex;
   justify-content: center;
+  flex-direction: column;
   color: #222;
   font-size: 15px;
   padding: 10px;
   font-family: 'Muli';
-  text-align: left;
   background-color: rgba(248, 241, 161, 0.95);
   max-width: 600px;
   max-height: 400px;
-  overflow: scroll;
   border: 1px solid #222;
 
+}
+
+.contIcons{
+  display: flex;
+  padding: 15px;
+  justify-content: center;
+}
+
+.icons{
+  justify-content: center;
+  flex-direction: row;
+  max-width: 50px;
+  max-height: 50px;
+  margin: 0 20px;
 }
 
 .resume {
@@ -64,6 +80,7 @@
   height: 500px;
   width: auto;
   border: 1px solid #222;
+  margin-bottom: 200px;
 }
 
 
@@ -185,6 +202,27 @@ a.block4 {
 .projects {
   text-align: center;
   box-sizing: border-box;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-bottom: 200px;
+}
+
+.project{
+  flex-direction: row;
+  max-height: 500px;
+  width: 100%;
+  max-width: 380px;
+  height: auto;
+  color: white;
+  margin: 10px;
+  background-color: #222;
+  padding: 5px;
+  border-radius: 7px;
+}
+
+.scrip{
+  background-color: #222;
 }
 
 .active {
@@ -207,15 +245,14 @@ a.block4 {
 
 
 .tictactoe {
-  max-height: 500px;
+  justify-content: center;
+  max-height: 450px;
   width: 100%;
-  max-width: 380px;
+  max-width: 330px;
   height: auto;
-  margin-bottom: 20px;
-  margin-top: 20px;
-  padding: 10px;
+  margin: 0 auto;
+  margin-top: 10px;
   background-color: #222;
-  margin: 20px;
   border-radius: 8px;
 }
 
@@ -245,11 +282,6 @@ h2{
   margin-left: 10px;
 }
 
-
-ul {
-  list-style: none;
-  text-align: right;
-}
 
 .content {
   margin-top: 3%;
