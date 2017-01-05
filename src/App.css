@@ -74,10 +74,21 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  flex-direction: column;
+}
+
+.resumeLink{
+  background-color: #222;
+  color: white;
+  padding: 10px;
+  text-decoration: none !important;
+  margin-bottom: 10px;
+  border-radius: 5px;
 }
 
 .resumepic{
-  height: 500px;
+  max-height: 800px;
+  height: 70%;
   width: auto;
   border: 1px solid #222;
   margin-bottom: 200px;
@@ -288,6 +299,7 @@ h2{
   position: relative;
   font-family: "Muli";
 }
+
 
 @media screen and (max-width:yourdevice-px) {
     @-ms-viewport{

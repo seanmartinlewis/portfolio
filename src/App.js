@@ -13,11 +13,11 @@ class App extends Component {
             <div className="header">
               <IndexLink to="/" className="nav" activeClassName="active">Home</IndexLink>
               {' '}
+              <Link className="nav" to="/About" activeClassName="active">About</Link>
+              <Link className="nav" to="/Projects" activeClassName="active">Projects</Link>
+              <Link className="nav" to="/resume" activeClassName="active">Resume</Link>
               <Link className="nav" to="/contact" activeClassName="active">Contact</Link>
               {' '}
-              <Link className="nav" to="/resume" activeClassName="active">Resume</Link>
-              <Link className="nav" to="/Projects" activeClassName="active">Projects</Link>
-              <Link className="nav" to="/About" activeClassName="active">About</Link>
             </div>
                   <h1>SEAN MARTIN LEWIS</h1>
                   <h2>Creative Web Development</h2>

@@ -12,12 +12,12 @@ class About extends Component {
     return(
       <div className="about">
       <div className="skills">
-        <img src={angular} className="icons"/>
-        <img src={jquery} className="icons"/>
-        <img src={node} className="icons"/>
-        <img src={rails} className="icons"/>
-        <img src={react} className="icons"/>
-        <img src={responsive} className="icons"/>
+        <img src={angular} role="presentation" className="icons"/>
+        <img src={jquery} role="presentation" className="icons"/>
+        <img src={node} role="presentation" className="icons"/>
+        <img src={rails} role="presentation" className="icons"/>
+        <img src={react} role="presentation" className="icons"/>
+        <img src={responsive} role="presentation" className="icons"/>
       </div>
         <div className="selfie">
           <img src={logo} className="App-logo" alt="logo" />
